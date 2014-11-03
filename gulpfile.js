@@ -13,7 +13,7 @@ gulp.task('less', function(done){
 gulp.task('jade', function(done){
   gulp.src('./jade/*.jade')
     .pipe(jade({pretty: true, doctype: 'html'}))
-    .pipe(gulp.dest('./public/'));
+    .pipe(gulp.dest('./'));
 });
 gulp.task('lint', function() {
   return gulp.src('./public/js/user/*.js')
