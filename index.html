@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="nv-portfolio" lang="en">
   <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/public/css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div id="container">
-      <h1>Yo yo yo!!!</h1>
-      <h2>This is my portfolio.</h2>
-    </div>
+    <div id="container" ng-view></div>
   </body>
+  <script src="/public/js/vendor/jquery/dist/jquery.js"></script>
+  <script src="/public/js/vendor/angular/angular.js"></script>
+  <script src="/public/js/vendor/angular-route/angular-route.js"></script>
+  <script src="/index.js"></script>
+  <script src="/public/js/user/home.js"></script>
 </html>
