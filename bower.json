@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "homepage": "https://github.com/SuperArtie/superartie.github.io",
+  "authors": [
+    "Nathan Vasquez <nathan.superartie@gmail.com>"
+  ],
+  "description": "This is SuperArtie's portfolio!",
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "/public/js/vendor",
+    "test",
+    "tests"
+  ]
+}
