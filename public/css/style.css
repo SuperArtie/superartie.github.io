@@ -1,10 +1,19 @@
-body {
-  background-color: red;
-  color: green;
+header {
+  background: #514c4c;
+  font-family: 'Playball', sans-serif;
+  margin-top: -20px;
+  padding-top: 20px;
+  color: #a7a7a7;
 }
-#container {
-  background-color: orange;
+header h1,
+header h4 {
+  margin-left: 20px;
 }
-#container h1 {
-  color: blue;
+header nav ul {
+  list-style: none;
+  padding: 0px;
+  margin-left: 20px;
+}
+header nav li {
+  display: inline-block;
 }
